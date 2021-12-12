@@ -1,0 +1,1 @@
+export const url = "https://moviessegundospring.herokuapp.com/registros/"
