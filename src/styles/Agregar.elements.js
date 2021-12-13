@@ -7,7 +7,7 @@ export const ContanedorPrincipalForm = styled.div`
   align-items: start;
 `
 
-export const ContanedorAgregar = styled.p`
+export const ContanedorAgregar = styled.div`
   color: #fff;
   border: 1px solid #ffc107;
   margin-right: 30px;
@@ -88,4 +88,74 @@ export const BotonAgregar = styled.button`
   border-radius: 5px;
   height: 35px;
   width: 100%;
+`
+
+
+///Estilos al login
+export const BotonLogin = styled.button`
+  background: #ffc107;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+`
+
+export const ContenedorLogin = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+`
+
+export const ContenedorBtn = styled.div`
+  color: #fff;
+  border: 1px solid #ffc107;
+  margin-right: 30px;
+  padding: 30px;
+  border-radius: 8px;
+`
+
+///Estilos al logout
+export const BotonLogout = styled.button`
+  background: #ffc107;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+`
+
+export const ContenedorLogout = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+`
+
+export const ContenedorBtnLogout = styled.div`
+  color: #fff;
+  border: 1px solid #ffc107;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+export const Fotoperfil = styled.div`
+  display: none;
+`
+
+
+/////Estilos perfil
+export const ImagenProfile = styled.img`
+  border-radius: 50px;
+  width: 50px;
+  margin-right: 60px;
+`
+
+export const ContenedorButon = styled.div`
+  margin-top: 10px;
 `

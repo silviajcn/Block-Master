@@ -5,6 +5,7 @@ import { ContainerCards } from '../styles/Grid.elements';
 import Cargando from './Cargando';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import NoMovie from './NoMovie';
+import { CarouselMovies } from './CarouselMovies';
 
 export default function GridPeliculas({search}) {
     //console.log(movies);
@@ -33,6 +34,8 @@ export default function GridPeliculas({search}) {
     }
 
     return (
+        <div>
+        <CarouselMovies />
         <InfiniteScroll dataLength={movies.length} hasMore={hasMore} next={() => setPage((prevPage) => prevPage + 1)}
         loader={<Cargando />}
         >
@@ -42,5 +45,6 @@ export default function GridPeliculas({search}) {
                 ))}
             </ContainerCards>
         </InfiniteScroll>
+        </div>
     )
 }

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import { Imagen } from '../styles/Navbar.elements';
+import { Profile } from './Profile';
 
 export default function Bootstrap() {
     return (
@@ -22,6 +23,10 @@ export default function Bootstrap() {
                         </Nav>
 
                         <Search />
+
+                        <div>
+                            <Profile />
+                        </div>
                         
                     </Navbar.Collapse>
                 </Container>

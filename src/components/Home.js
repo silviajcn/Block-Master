@@ -2,7 +2,6 @@ import React from 'react';
 import { useQuery } from '../hooks/useQuery';
 import { useDebounce } from '../hooks/useDebounce';
 import GridPeliculas from './GridPeliculas';
-import { CarouselMovies } from './CarouselMovies';
 
 export default function Home() {
 
@@ -14,7 +13,6 @@ export default function Home() {
 
     return (
         <div>
-            <CarouselMovies />
             <GridPeliculas key={debouncedSearch} search={debouncedSearch}/>
         </div>
     )
