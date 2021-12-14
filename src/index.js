@@ -6,10 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css';
 
+  const domain = process.env.REACT_APP_AUTH0_DOMAIN
+  const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID
+  
 ReactDOM.render(
   <Auth0Provider
-      domain="dev-8k1-s7x5.us.auth0.com"
-      clientId="OMxkv7DfEKpWUJnQiSm3bfIXSOqbpE87"
+      domain={domain}
+      clientId={clientId}
       redirectUri={window.location.origin}
     >
        <Container />

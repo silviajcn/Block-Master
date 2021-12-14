@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Search from './Search';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import { Imagen } from '../styles/Navbar.elements';
@@ -16,10 +16,22 @@ export default function Bootstrap() {
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="me-auto my-2 my-lg-0 text-white" style={{ maxHeight: '100px' }} navbarScroll>
-                            <Link to="/" className="nav-link text-white me-2">Home</Link>
-                            <Link to="/form" className="nav-link text-white me-2 ">Agregar Peliculas</Link>
-                            <Link to="/agregadas" className="nav-link text-white me-2">Peliculas agregadas</Link>
+                            className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
+                            <NavLink
+                                to="/"
+                                className="nav-link me-2"
+                                style={({ isActive }) => isActive ? { color: "#ffc107" } : { color: "white" }}
+                            >Home</NavLink>
+                            <NavLink
+                                to="/form"
+                                className="nav-link me-2 "
+                                style={({ isActive }) => isActive ? { color: "#ffc107" } : { color: "white" }}
+                            >Agregar Peliculas</NavLink>
+                            <NavLink
+                                to="/agregadas"
+                                className="nav-link  me-2"
+                                style={({ isActive }) => isActive ? { color: "#ffc107" } : { color: "white" }}
+                            >Peliculas agregadas</NavLink>
                         </Nav>
 
                         <Search />
