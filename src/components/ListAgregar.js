@@ -30,7 +30,7 @@ export const ListAgregar = () => {
                 {
                     movies.map(movie => (
                         <div className='col text-center' key={movie.id}>
-                        <Link to={`/detalleagre/${movie.id}`}>
+                        <Link to={`/detalles/${movie.id}`}>
                             <ImagenMovieAgre src={movie.poster_path}  alt="..." />
                         </Link>
                         </div>

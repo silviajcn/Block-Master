@@ -75,9 +75,19 @@ export const FormAgregar = () => {
                         
                         <Select id="selectTipo" name="genre" value={genre} onChange={handleChange}>
                         <option name="Seleccionar" value="Seleccionar">Seleccionar</option>
-                        <option name="accion">Accion</option>
+                        <option name="accion">Acción</option>
+                        <option name="drama">Ciencia ficción</option>
                         <option name="horror">Horror</option>
+                        <option name="drama">Suspenso</option>
                         <option name="drama">Drama</option>
+                        <option name="drama">Comedia</option>
+                        <option name="drama">Fantasía</option>
+                        <option name="drama">Musical</option>
+                        <option name="drama">Animación</option>
+                        <option name="drama">Anime</option>
+                        <option name="drama">Aventura</option>
+                        <option name="drama">Corto</option>
+                        <option name="drama">Documental</option>
                         </Select>
                         </ContainerSelect>
 
