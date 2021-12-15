@@ -54,8 +54,15 @@ export const DetalleAgre = ({detalle}) => {
                         {genre}
                     </Genero>
                     
+                    <button className="btn btn-warning btm-sm mx-2" onClick={() => navegar(`/agregadas`)}>
+                    Atras
+                    </button>
                 </DetallesMovie>
+
+                
             </ContenedorDetails>
+
+            
         </ContenedorPrincipal>
     )
 }

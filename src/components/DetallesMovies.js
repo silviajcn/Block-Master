@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router';
 import get from '../url/httpClient';
 
@@ -8,6 +9,8 @@ import { getMovieImg } from '../url/getMovieImg';
 
 
 export default function DetallesMovies() {
+
+    const navegar = useNavigate();
 
     const { movieId } = useParams();
     //console.log(movieId);
@@ -68,6 +71,9 @@ export default function DetallesMovies() {
                         {movie.genres.map(genre => genre.name).join(", ")}
                     </Genero>
                     
+                    <button className="btn btn-warning btm-sm mx-2" onClick={() => navegar(`/`)}>
+                    Atras
+                    </button>
                 </DetallesMovie>
             </ContenedorDetails>
         </ContenedorPrincipal>

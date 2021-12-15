@@ -33,7 +33,7 @@ export default function Container() {
                 <Route path="/" element={<Home />} />
                 <Route path="/details/:movieId" element={<DetallesMovies />} />
                 <Route path="/form" element={<FormAgre />} />
-                <Route path="/agregadas" element={<AgregarMovies/>} />
+                <Route path="/agregadas" element={<AgregarMovies movies={movies}/>} />
                 <Route path="/detalles/:id" element={<DetalleAgre detalle={movies}/>}/>
                 <Route path="/search" element={<Search />} />
                 <Route path="*" element={<Navigate replace to="/"/>} />
