@@ -3,6 +3,7 @@ import { useQuery } from '../hooks/useQuery';
 import { FaSearch } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Form, FormControl} from "react-bootstrap";
+import { ContainerBuscador } from '../styles/Navbar.elements';
 
 export default function Search() {
 
@@ -16,7 +17,7 @@ export default function Search() {
     }
 
     return (
-        <div>
+        <ContainerBuscador>
             <Form className="d-flex" onSubmit={handleSubmit}>
                 <FormControl
                     type="text"
@@ -31,6 +32,6 @@ export default function Search() {
                     />
                 <Button bg="warning" variant="warning" className="me-5" type="submit"><FaSearch /></Button>
             </Form>
-        </div>
+        </ContainerBuscador>
     )
 }
