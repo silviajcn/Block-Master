@@ -42,7 +42,7 @@ Nota 2: para cambiar estos datos es necesario contar con una cuenta de developer
 
 ## 🔍 Vistas 
 
-<img width="60%" align="center" alt="pages" src="https://media.giphy.com/media/OAoKa673cTHFHdDRZE/giphy.gif" />
+<img width="80%" align="center" alt="pages" src="https://media.giphy.com/media/OAoKa673cTHFHdDRZE/giphy.gif" />
 
 ## 🌟 Autor
 
