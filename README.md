@@ -11,7 +11,7 @@ https://spring3-a9826.web.app/
 <img width="100%" alt="page" src="https://res.cloudinary.com/silviajcn/image/upload/v1643317095/Mi%20Portafolio/Proyects/p3_elvvzn.png" />
 
     
-# 💎 Block Master Proyecto
+## 💎 Block Master Proyecto
 
 La pagina está construida en React. Para la creación de la misma se utilizaron las siguientes herramientas de desarrollo:
 
