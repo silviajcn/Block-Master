@@ -1,14 +1,14 @@
-# 🌍 Block Master
+# 💻 Block Master
 
 <img width="25%" align="right" style="margin-right:5%" alt="logo" src="https://res.cloudinary.com/silviajcn/image/upload/v1638722550/Im%C3%A1genes%20para%20proyectos/SPRING%202/logo-blockBuster_izhbos.png" />
 
-Amazonas es una página de películas que le permite al usuario hacer busquedas de peliculas tanto de los ultimos estrenos en el cine como peliculas publicadas en años anteriores, al hacerlo, obtendrá información detalla de cada película. En el apartado Agregar películas, el usuario podrá agregar sus propias películas y podrá ubicarlas en la pestaña Películas agregadas, esta función de agregar películas solo se puede utilizar si el usuario está logueado en la página.
+Block Master es una página de películas que le permite al usuario hacer busquedas de peliculas tanto de los ultimos estrenos en el cine como peliculas publicadas en años anteriores, al hacerlo, obtendrá información detalla de cada película. En el apartado Agregar películas, el usuario podrá agregar sus propias películas y podrá ubicarlas en la pestaña Películas agregadas, esta función de agregar películas solo se puede utilizar si el usuario está logueado en la página.
 
 ## 📌 Puede visitar Block Master aquí:
 
 https://spring3-a9826.web.app/
 
-<img width="35%" alt="page" src="https://res.cloudinary.com/silviajcn/image/upload/v1643317095/Mi%20Portafolio/Proyects/p3_elvvzn.png" />
+<img width="100%" alt="page" src="https://res.cloudinary.com/silviajcn/image/upload/v1643317095/Mi%20Portafolio/Proyects/p3_elvvzn.png" />
 
     
 # 💎 Block Master Proyecto
