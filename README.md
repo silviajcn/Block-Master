@@ -33,6 +33,7 @@ La pagina está construida en React. Para la creación de la misma se utilizaron
 * Abrir la terminal del editor
 * Correr el comando ```npm install``` para instalar correctamente las dependencias del proyecto
 * Para levantar el servidor local se debe correr el comando ```npm start```
+* Para la base de datos de las Películas agregadas del proyecto se utilizó Heroku. Link de la endpoint: https://moviessegundospring.herokuapp.com/registros
 * Se debe tener en cuenta que para la utilización de Auth0 React, se debe contar con una cuenta en Auth0.com y sus configuraciones respectivas.
 * De igual modo, se debe cambiar la configuracion dentro de la constante fileUpload con datos personales de Cloudinary. Esta constante se encuentra en la siguiente direccion: src > helpers > FileUpload.js > fileUpload (leer nota 1).
 
