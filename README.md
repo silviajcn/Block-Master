@@ -47,16 +47,8 @@ Nota 2: para cambiar estos datos es necesario contar con una cuenta de developer
 
 ## 🔍 Vistas 
 
-* Lista de productos
-* Busquedas
-* Detalles del producto seleccionado
-* Carrito de compras
-* Comentarios
-
-<img width="60%" align="center" alt="vistas" src="https://media.giphy.com/media/eWgsjqbA6Zn6B7z2wf/giphy.gif" />
+<img width="60%" align="center" alt="https://media.giphy.com/media/OAoKa673cTHFHdDRZE/giphy.gif" />
 
 ## 🌟 Autor
 
 * **Silvia C. Navarro**  - [@silviajcn](https://github.com/silviajcn)
-
-![logoo](https://user-images.githubusercontent.com/88461234/150699439-457e6941-d9cc-482b-81d9-b6a7249ec642.png)
