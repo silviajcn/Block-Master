@@ -17,19 +17,14 @@ La pagina está construida en React. Para la creación de la misma se utilizaron
 
 * ```react```
 * ```react-router-dom```
-* ```redux```
-* ```react-redux```
-* ```redux-thunk```
-* ```firebase```
-* ```formik```
-* ```yup```
+* ```@auth0/auth0-react```
+* ```axios```
+* ```json-server```
+* ```react-infinite-scroll-component```
 * ```styled-components```
-* ```@mui/material```
-* ```@mui/icons-material```
 * ```bootstrap```
 * ```react-bootstrap```
 * ```react-icons```
-* ```react-elastic-carousel```
 
 ## 🔥 Descarga del proyecto e Instalación
 
