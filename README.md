@@ -6,8 +6,6 @@ Block Master es una página de películas que le permite al usuario hacer busque
 
 ## 📌 Puede visitar Block Master aquí: https://blockmaster-movies.vercel.app/
 
-https://spring3-a9826.web.app/
-
 <img width="100%" alt="page" src="https://res.cloudinary.com/silviajcn/image/upload/v1643317095/Mi%20Portafolio/Proyects/p3_elvvzn.png" />
 
     
@@ -46,3 +44,4 @@ Nota 2: para cambiar estos datos es necesario contar con una cuenta de developer
 ## 🌟 Autor
 
 * **Silvia C. Navarro**  - [@silviajcn](https://github.com/silviajcn)
+* **Mi portafolio** - [Mi portafolio](https://silviajcn.vercel.app/)
