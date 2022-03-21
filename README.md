@@ -4,7 +4,7 @@
 
 Block Master es una página de películas que le permite al usuario hacer busquedas de peliculas tanto de los ultimos estrenos en el cine como peliculas publicadas en años anteriores, al hacerlo, obtendrá información detalla de cada película. En el apartado Agregar películas, el usuario podrá agregar sus propias películas y podrá ubicarlas en la pestaña Películas agregadas, esta función de agregar películas solo se puede utilizar si el usuario está logueado en la página.
 
-## 📌 Puede visitar Block Master aquí:
+## 📌 Puede visitar Block Master aquí: https://blockmaster-movies.vercel.app/
 
 https://spring3-a9826.web.app/
 
